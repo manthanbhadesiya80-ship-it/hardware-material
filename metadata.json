@@ -1,0 +1,8 @@
+{
+  "name": "Remix Remix Devshree - The Hardware Gallery",
+  "description": "India\u0027s premier hardware \u0026 furniture fittings destination. Shop authentic bed fittings, hinges, clamps, door locks, cabinet hardware, adhesives, and bulk contractor supply.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

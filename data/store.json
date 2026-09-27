@@ -1,0 +1,1423 @@
+{
+  "settings": {
+    "businessName": "Devshree - The Hardware Gallery",
+    "tagline": "The Hardware Gallery",
+    "phone": "+91 81280 40556",
+    "alternatePhone": "+91 94262 18990",
+    "whatsappNumber": "+918128040556",
+    "email": "contact@devshreehardware.com",
+    "address": "Devshree Complex, 80 Feet Road, Near Patel Chowk, Rajkot",
+    "city": "Rajkot",
+    "state": "Gujarat",
+    "pincode": "360002",
+    "gstNumber": "24AAACD1234F1Z8",
+    "freeShippingThreshold": 999,
+    "standardShippingFee": 79,
+    "isCodEnabled": true,
+    "isRazorpayTestMode": true,
+    "announcementText": "⚡ Fast Dispatch across India | Genuine Branded Hardware | Bulk Contractor Discounts Available | 📞 Call +91 81280 40556",
+    "isAnnouncementEnabled": true,
+    "chatbotEnabled": true,
+    "chatbotWelcomeMsg": "Namaste! Welcome to Devshree - The Hardware Gallery. How can I assist your hardware or furniture project today?",
+    "logoUrl": ""
+  },
+  "categories": [
+    {
+      "id": "cat-bed-fittings",
+      "name": "Bed Fittings",
+      "slug": "bed-fittings",
+      "description": "Heavy-duty hydraulic lift systems, bed brackets, connector fittings, and gas pump mechanisms for modern beds.",
+      "image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=600&auto=format&fit=crop&q=80",
+      "iconName": "BedDouble",
+      "subcategories": [
+        "Hydraulic Bed Lifts",
+        "Bed Corner Brackets",
+        "Gas Springs",
+        "Bed Frame Connectors"
+      ],
+      "itemCount": 14,
+      "displayOrder": 1,
+      "isActive": true
+    },
+    {
+      "id": "cat-furniture-hardware",
+      "name": "Furniture Hardware",
+      "slug": "furniture-hardware",
+      "description": "Soft-close hinges, telescopic drawer slides, flap stays, and furniture lifters.",
+      "image": "https://images.unsplash.com/photo-1538688525198-9b88f6f53126?w=600&auto=format&fit=crop&q=80",
+      "iconName": "Wrench",
+      "subcategories": [
+        "Auto Concealed Hinges",
+        "Telescopic Channels",
+        "Flap Stays",
+        "Furniture Buffers"
+      ],
+      "itemCount": 28,
+      "displayOrder": 2,
+      "isActive": true
+    },
+    {
+      "id": "cat-cabinet-hardware",
+      "name": "Cabinet Hardware",
+      "slug": "cabinet-hardware",
+      "description": "Luxury profile handles, zinc alloy knobs, concealed cabinet locks, and drawer pulls.",
+      "image": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?w=600&auto=format&fit=crop&q=80",
+      "iconName": "Boxes",
+      "subcategories": [
+        "Profile Handles",
+        "Concealed Pulls",
+        "Brass Knobs",
+        "Cabinet Locks"
+      ],
+      "itemCount": 32,
+      "displayOrder": 3,
+      "isActive": true
+    },
+    {
+      "id": "cat-door-hardware",
+      "name": "Door Hardware",
+      "slug": "door-hardware",
+      "description": "Stainless steel mortise door lock handles, tower bolts, magnetic stoppers, and hydraulic door closers.",
+      "image": "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=600&auto=format&fit=crop&q=80",
+      "iconName": "DoorClosed",
+      "subcategories": [
+        "Mortise Locksets",
+        "Main Door Pull Handles",
+        "Door Closers",
+        "Tower Bolts & Latches"
+      ],
+      "itemCount": 22,
+      "displayOrder": 4,
+      "isActive": true
+    },
+    {
+      "id": "cat-fasteners",
+      "name": "Fasteners & Screws",
+      "slug": "fasteners",
+      "description": "Hardened drywall screws, chipboard wood screws, SS self-drilling screws, and rawl plugs.",
+      "image": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=600&auto=format&fit=crop&q=80",
+      "iconName": "Nut",
+      "subcategories": [
+        "Drywall Screws",
+        "Wood Screws",
+        "Anchor Bolts",
+        "Self Tapping Screws"
+      ],
+      "itemCount": 19,
+      "displayOrder": 5,
+      "isActive": true
+    },
+    {
+      "id": "cat-tools",
+      "name": "Tools & Accessories",
+      "slug": "tools",
+      "description": "Precision carpenter measuring tapes, drill bit sets, spirit levels, and magnetic bit holders.",
+      "image": "https://images.unsplash.com/photo-1508873696983-2df5293cb395?w=600&auto=format&fit=crop&q=80",
+      "iconName": "Hammer",
+      "subcategories": [
+        "Drill Bits",
+        "Measuring Tools",
+        "Screwdriver Sets",
+        "Hole Saws"
+      ],
+      "itemCount": 16,
+      "displayOrder": 6,
+      "isActive": true
+    },
+    {
+      "id": "cat-adhesives",
+      "name": "Adhesives & Sealants",
+      "slug": "adhesives",
+      "description": "Cyanoacrylate instant glue, wood adhesives, neutral silicone sealants, and spray bonds.",
+      "image": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=600&auto=format&fit=crop&q=80",
+      "iconName": "Sparkles",
+      "subcategories": [
+        "Instant Glues",
+        "Wood Adhesives",
+        "Silicone Sealants",
+        "Masking Tapes"
+      ],
+      "itemCount": 15,
+      "displayOrder": 7,
+      "isActive": true
+    },
+    {
+      "id": "cat-abrasives",
+      "name": "Abrasives & Sanding",
+      "slug": "abrasives",
+      "description": "Velcro sanding discs, emery rolls, flap wheels, and wood polishing paper.",
+      "image": "https://images.unsplash.com/photo-1581092335397-9583fe92d232?w=600&auto=format&fit=crop&q=80",
+      "iconName": "Disc",
+      "subcategories": [
+        "Velcro Discs",
+        "Emery Paper",
+        "Flap Wheels",
+        "Non-Woven Pads"
+      ],
+      "itemCount": 12,
+      "displayOrder": 8,
+      "isActive": true
+    },
+    {
+      "id": "cat-clamps",
+      "name": "Clamps & Vices",
+      "slug": "clamps",
+      "description": "Heavy malleable iron G-clamps, quick-grip wood F-clamps, and 90-degree corner clamps.",
+      "image": "https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?w=600&auto=format&fit=crop&q=80",
+      "iconName": "Layers",
+      "subcategories": [
+        "G-Clamps",
+        "F-Clamps",
+        "Corner 90° Clamps",
+        "Pipe Clamps"
+      ],
+      "itemCount": 10,
+      "displayOrder": 9,
+      "isActive": true
+    },
+    {
+      "id": "cat-kitchen-hardware",
+      "name": "Kitchen & Wardrobe",
+      "slug": "kitchen-hardware",
+      "description": "Modular kitchen tandem baskets, spice racks, wardrobe pull-down hangers, and cutlery trays.",
+      "image": "https://images.unsplash.com/photo-1556909212-d5b604d0c90d?w=600&auto=format&fit=crop&q=80",
+      "iconName": "UtensilsCrossed",
+      "subcategories": [
+        "Tandem Baskets",
+        "Wardrobe Lifts",
+        "Spice Pullouts",
+        "Pantry Units"
+      ],
+      "itemCount": 18,
+      "displayOrder": 10,
+      "isActive": true
+    }
+  ],
+  "brands": [
+    {
+      "id": "b1",
+      "name": "Devshree Pro",
+      "logo": "https://images.unsplash.com/photo-1572932491814-36365b26b714?w=200&auto=format&fit=crop&q=60",
+      "tagline": "Engineered for Life",
+      "isActive": true
+    },
+    {
+      "id": "b2",
+      "name": "Europa",
+      "logo": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=200&auto=format&fit=crop&q=60",
+      "tagline": "Unbeatable Security",
+      "isActive": true
+    },
+    {
+      "id": "b3",
+      "name": "Godrej",
+      "logo": "https://images.unsplash.com/photo-1563245372-f21724e3856d?w=200&auto=format&fit=crop&q=60",
+      "tagline": "India's Trusted Choice",
+      "isActive": true
+    },
+    {
+      "id": "b4",
+      "name": "Ozone",
+      "logo": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=200&auto=format&fit=crop&q=60",
+      "tagline": "Architectural Hardware",
+      "isActive": true
+    },
+    {
+      "id": "b5",
+      "name": "Polyfix",
+      "logo": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=200&auto=format&fit=crop&q=60",
+      "tagline": "Instant Bonding Master",
+      "isActive": true
+    },
+    {
+      "id": "b6",
+      "name": "4Ward",
+      "logo": "https://images.unsplash.com/photo-1508873696983-2df5293cb395?w=200&auto=format&fit=crop&q=60",
+      "tagline": "Modern Furniture Fittings",
+      "isActive": true
+    },
+    {
+      "id": "b7",
+      "name": "Fevicol / Pidilite",
+      "logo": "https://images.unsplash.com/photo-1538688525198-9b88f6f53126?w=200&auto=format&fit=crop&q=60",
+      "tagline": "Ultimate Wood Bonding",
+      "isActive": true
+    },
+    {
+      "id": "b8",
+      "name": "Bosch",
+      "logo": "https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?w=200&auto=format&fit=crop&q=60",
+      "tagline": "Precision Professional Tools",
+      "isActive": true
+    }
+  ],
+  "products": [
+    {
+      "id": "prod-1",
+      "name": "Devshree Heavy-Duty Hydraulic Bed Lift Mechanism (150 Kg Capacity / Pair)",
+      "slug": "heavy-duty-hydraulic-bed-lift-mechanism-150kg",
+      "sku": "DS-BL-150H",
+      "brand": "Devshree Pro",
+      "category": "Bed Fittings",
+      "subcategory": "Hydraulic Bed Lifts",
+      "price": 1899,
+      "mrp": 2799,
+      "discountPercentage": 32,
+      "stock": 45,
+      "lowStockThreshold": 10,
+      "images": [
+        "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1540518614846-7ede433c4ef0?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=800&auto=format&fit=crop&q=80"
+      ],
+      "description": "Engineered for King and Queen hydraulic storage beds. Manufactured from 4mm thick cold-rolled high-tensile steel with dual nitrogen gas pump pistons. Ensures whisper-quiet, zero-effort lifting of heavy mattresses.",
+      "shortDescription": "Heavy-duty 150kg hydraulic gas lift fitting for storage beds with mounting brackets.",
+      "material": "Cold Rolled Steel (Powder Coated Black)",
+      "finish": "Matte Black Anti-Rust Epoxy",
+      "dimensions": "1500mm Length x 50mm Height (Bracket)",
+      "weight": "7.8 kg",
+      "specifications": {
+        "Piston Force": "1500N (150 Kg Load)",
+        "Bed Compatibility": "King / Queen Size Bed Box",
+        "Included Hardware": "2x Lift Frames, 2x Nitrogen Gas Cylinders, M8 Bolt Pack",
+        "Warranty": "3 Years Replacement Warranty",
+        "Country of Origin": "India"
+      },
+      "features": [
+        "Tested for 50,000 continuous open-close cycles",
+        "Dual nitrogen gas charged shock absorbers",
+        "Anti-pinch safety bracket design",
+        "Easy bolt-on installation with pre-drilled slotted holes"
+      ],
+      "isFeatured": true,
+      "isBestSeller": true,
+      "bulkPricing": [
+        {
+          "minQty": 5,
+          "price": 1749
+        },
+        {
+          "minQty": 20,
+          "price": 1599
+        }
+      ],
+      "rating": 4.9,
+      "reviewsCount": 142,
+      "tags": [
+        "bed fitting",
+        "hydraulic lift",
+        "storage bed",
+        "gas pump",
+        "carpentry"
+      ],
+      "seoTitle": "Buy Hydraulic Bed Lift 150kg Mechanism Online | Devshree Hardware",
+      "seoDescription": "Order heavy-duty hydraulic bed lift fitting at best trade price in India. Fast delivery and COD available.",
+      "isActive": true,
+      "createdAt": "2026-01-10T10:00:00Z"
+    },
+    {
+      "id": "prod-2",
+      "name": "Devshree Premium Zinc Alloy Concealed Mortise Door Handle Lock Set",
+      "slug": "zinc-alloy-mortise-door-handle-lock-set",
+      "sku": "DS-DL-802Z",
+      "brand": "Devshree Pro",
+      "category": "Door Hardware",
+      "subcategory": "Mortise Locksets",
+      "price": 1449,
+      "mrp": 2199,
+      "discountPercentage": 34,
+      "stock": 62,
+      "lowStockThreshold": 12,
+      "images": [
+        "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?w=800&auto=format&fit=crop&q=80"
+      ],
+      "description": "Architectural-grade mortise door lock set crafted from virgin zinc alloy with satin nickel dual-tone finish. Complete with 60mm brass double-action euro cylinder and 3 computer-dimpled brass keys.",
+      "shortDescription": "Modern ergonomic mortise door lock set with brass cylinder & computer keys.",
+      "material": "Virgin Zinc Alloy & Solid Brass Cylinder",
+      "finish": "Satin Nickel & Antique Rosewood Inlay",
+      "dimensions": "200mm Handle Plate x 50mm Backset",
+      "weight": "1.45 kg",
+      "specifications": {
+        "Locking Mechanism": "Euro Double Cylinder (60mm)",
+        "Door Thickness": "30mm to 55mm compatible",
+        "Keys": "3 High Security Computer Keys",
+        "Latch": "Reversible Brass Latch Bolt",
+        "Warranty": "5 Years Finish & Mechanism Warranty"
+      },
+      "features": [
+        "Anti-pick, anti-bump high security brass core",
+        "Silky smooth spring action tested for 200,000 cycles",
+        "Fingerprint-resistant nano-electroplated surface",
+        "Suitable for main doors and master bedroom doors"
+      ],
+      "isFeatured": true,
+      "isBestSeller": true,
+      "bulkPricing": [
+        {
+          "minQty": 10,
+          "price": 1320
+        },
+        {
+          "minQty": 30,
+          "price": 1190
+        }
+      ],
+      "rating": 4.8,
+      "reviewsCount": 88,
+      "tags": [
+        "door lock",
+        "mortise handle",
+        "main door handle",
+        "brass cylinder"
+      ],
+      "isActive": true,
+      "createdAt": "2026-01-12T10:00:00Z"
+    },
+    {
+      "id": "prod-3",
+      "name": "Devshree Soft-Close 3D Clip-On Hydraulic Hinges (Pack of 10 Pieces / 5 Pairs)",
+      "slug": "soft-close-clip-on-hydraulic-cabinet-hinges-10pack",
+      "sku": "DS-HG-008SC",
+      "brand": "Devshree Pro",
+      "category": "Furniture Hardware",
+      "subcategory": "Auto Concealed Hinges",
+      "price": 649,
+      "mrp": 999,
+      "discountPercentage": 35,
+      "stock": 120,
+      "lowStockThreshold": 25,
+      "images": [
+        "https://images.unsplash.com/photo-1538688525198-9b88f6f53126?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=800&auto=format&fit=crop&q=80"
+      ],
+      "description": "Precision hydraulic damping cabinet door hinges. Features 3-way adjustment (depth, vertical, and horizontal) with instant clip-on mounting plate for rapid carpenter installation.",
+      "shortDescription": "Silent soft-close 35mm cup clip-on cabinet hinges for modular kitchens & wardrobes.",
+      "material": "Cold Rolled Steel with Double Nickel Plating",
+      "finish": "Bright Silver Nickel Plated",
+      "dimensions": "35mm Cup Diameter, 11.5mm Depth, 105° Opening",
+      "weight": "1.2 kg per pack",
+      "specifications": {
+        "Hinge Type": "Full Overlay (0 Crank) / Half Overlay available",
+        "Closing Angle": "Gentle silent deceleration from 25°",
+        "Salt Spray Test": "48 Hours Anti-Corrosion Certified",
+        "Screws Included": "Yes, 60 stainless wood screws included"
+      },
+      "features": [
+        "Integrated brass hydraulic damping cylinder",
+        "3D cam adjustment without detaching the door",
+        "Zero slam - protects cabinet structure from impact",
+        "Clip-on detachable base for easy cabinet cleaning"
+      ],
+      "isFeatured": true,
+      "isOffer": true,
+      "bulkPricing": [
+        {
+          "minQty": 5,
+          "price": 580
+        },
+        {
+          "minQty": 25,
+          "price": 499
+        }
+      ],
+      "rating": 4.9,
+      "reviewsCount": 210,
+      "tags": [
+        "hinges",
+        "soft close",
+        "cabinet fitting",
+        "kitchen hinge",
+        "hydraulic hinge"
+      ],
+      "isActive": true,
+      "createdAt": "2026-01-14T10:00:00Z"
+    },
+    {
+      "id": "prod-4",
+      "name": "Devshree Heavy Telescopic Ball Bearing Drawer Slides 18-Inch (45mm Width / Pair)",
+      "slug": "telescopic-ball-bearing-drawer-slides-18inch",
+      "sku": "DS-DR-4518",
+      "brand": "4Ward",
+      "category": "Furniture Hardware",
+      "subcategory": "Telescopic Channels",
+      "price": 389,
+      "mrp": 580,
+      "discountPercentage": 33,
+      "stock": 95,
+      "lowStockThreshold": 20,
+      "images": [
+        "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1508873696983-2df5293cb395?w=800&auto=format&fit=crop&q=80"
+      ],
+      "description": "3-fold full extension ball bearing drawer channels manufactured from 1.2mm thick cold-rolled steel. Smooth solid carbon steel balls provide effortless glide even under a heavy 45kg drawer load.",
+      "shortDescription": "Full extension 45kg load ball bearing drawer runner channels.",
+      "material": "High-Strength Cold Rolled Steel",
+      "finish": "Black Electrophoresis Coating",
+      "dimensions": "18 Inch (450mm) Length x 45mm Height x 12.7mm Thickness",
+      "weight": "980g per pair",
+      "specifications": {
+        "Weight Capacity": "45 Kg dynamic load",
+        "Extension": "3-Fold 100% Full Extension",
+        "Ball Rows": "Double row precision carbon steel bearings",
+        "Installation": "Side Mounted"
+      },
+      "features": [
+        "Quick disconnect lever allows easy drawer removal",
+        "Cushioned rubber stop prevents rebound",
+        "Rust-resistant black electrophoretic finish",
+        "Ideal for heavy office drawers and kitchen baskets"
+      ],
+      "isBestSeller": true,
+      "bulkPricing": [
+        {
+          "minQty": 10,
+          "price": 345
+        },
+        {
+          "minQty": 50,
+          "price": 295
+        }
+      ],
+      "rating": 4.7,
+      "reviewsCount": 94,
+      "tags": [
+        "drawer slides",
+        "telescopic channel",
+        "drawer runner",
+        "carpentry"
+      ],
+      "isActive": true,
+      "createdAt": "2026-01-16T10:00:00Z"
+    },
+    {
+      "id": "prod-5",
+      "name": "Polyfix Instant Cyanoacrylate High-Bond Adhesive Kit (50g Bottle + Activator)",
+      "slug": "polyfix-instant-cyanoacrylate-adhesive-kit-50g",
+      "sku": "PF-CA-50KIT",
+      "brand": "Polyfix",
+      "category": "Adhesives & Sealants",
+      "subcategory": "Instant Glues",
+      "price": 249,
+      "mrp": 350,
+      "discountPercentage": 29,
+      "stock": 140,
+      "lowStockThreshold": 30,
+      "images": [
+        "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=800&auto=format&fit=crop&q=80"
+      ],
+      "description": "Industrial-grade CA glue engineered for fast bonding of MDF, acrylic, wood edge banding, laminate, metal, and PVC edge tapes. Cures solidly within 10 seconds when used with aerosol activator spray.",
+      "shortDescription": "10-second instant high-strength bond kit for wood, PVC tape & acrylic.",
+      "material": "Ethyl Cyanoacrylate (Medium Viscosity)",
+      "specifications": {
+        "Setting Time": "5 to 10 Seconds",
+        "Viscosity": "Medium (Non-dripping)",
+        "Volume": "50g Adhesive + 200ml Aerosol Activator",
+        "Shelf Life": "12 Months"
+      },
+      "features": [
+        "Instant bond for PVC edge banding and moulding",
+        "High tensile and shear holding strength",
+        "Does not leave white ghosting haze when cured properly",
+        "Clog-free nozzle cap included"
+      ],
+      "isFeatured": true,
+      "isBestSeller": true,
+      "bulkPricing": [
+        {
+          "minQty": 10,
+          "price": 215
+        },
+        {
+          "minQty": 40,
+          "price": 185
+        }
+      ],
+      "rating": 4.9,
+      "reviewsCount": 312,
+      "tags": [
+        "polyfix",
+        "adhesive",
+        "instant glue",
+        "edge banding glue",
+        "fevicol"
+      ],
+      "isActive": true,
+      "createdAt": "2026-01-18T10:00:00Z"
+    },
+    {
+      "id": "prod-6",
+      "name": "Devshree Heavy Forged Steel G-Clamp 6-Inch for Carpentry & Fabrication",
+      "slug": "heavy-forged-steel-g-clamp-6-inch",
+      "sku": "DS-CL-006G",
+      "brand": "Devshree Pro",
+      "category": "Clamps & Vices",
+      "subcategory": "G-Clamps",
+      "price": 520,
+      "mrp": 750,
+      "discountPercentage": 31,
+      "stock": 40,
+      "lowStockThreshold": 10,
+      "images": [
+        "https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?w=800&auto=format&fit=crop&q=80"
+      ],
+      "description": "Forged ductile iron G-clamp with hardened steel lead screw and swiveling pressure pad. Essential for woodworking glue-ups, furniture assembly, and metal welding clamping.",
+      "shortDescription": "Heavy-duty 6\" malleable forged iron G-clamp with swivel jaw pad.",
+      "material": "Drop-Forged Ductile Iron & Hardened Acme Thread Screw",
+      "finish": "Industrial Gloss Orange Baked Enamel",
+      "dimensions": "6 Inch (150mm) Clamping Capacity, 75mm Throat Depth",
+      "weight": "1.6 kg",
+      "specifications": {
+        "Clamping Pressure": "Up to 900 kg clamping force",
+        "Thread Type": "Precision rolled smooth Acme thread",
+        "Handle": "Sliding T-Bar handle for maximum leverage"
+      },
+      "features": [
+        "Unbreakable forged frame design resists twisting under load",
+        "Swivel foot levels onto uneven wood angles effortlessly",
+        "Corrosion-resistant zinc plated spindle",
+        "Preferred by master carpenters across India"
+      ],
+      "bulkPricing": [
+        {
+          "minQty": 4,
+          "price": 475
+        },
+        {
+          "minQty": 12,
+          "price": 420
+        }
+      ],
+      "rating": 4.8,
+      "reviewsCount": 76,
+      "tags": [
+        "clamp",
+        "g clamp",
+        "carpenter tool",
+        "woodworking clamp"
+      ],
+      "isActive": true,
+      "createdAt": "2026-01-20T10:00:00Z"
+    },
+    {
+      "id": "prod-7",
+      "name": "Devshree Luxury Brushed Brass Profile Handle for Kitchen & Wardrobe (1200mm)",
+      "slug": "luxury-brushed-brass-profile-handle-1200mm",
+      "sku": "DS-HD-PR1200",
+      "brand": "Devshree Pro",
+      "category": "Cabinet Hardware",
+      "subcategory": "Profile Handles",
+      "price": 680,
+      "mrp": 1050,
+      "discountPercentage": 35,
+      "stock": 55,
+      "lowStockThreshold": 12,
+      "images": [
+        "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1538688525198-9b88f6f53126?w=800&auto=format&fit=crop&q=80"
+      ],
+      "description": "Minimalist J-pull aluminum alloy edge profile handle with luxury brushed satin brass electroplated finish. Sits flush onto 18mm shutter edges for seamless modern architectural aesthetics.",
+      "shortDescription": "1200mm long brushed gold-brass architectural profile handle for wardrobe shutters.",
+      "material": "Extruded Aircraft Grade Aluminium",
+      "finish": "Brushed Royal Gold / Brass Anodized",
+      "dimensions": "1200mm Length x 40mm Depth x 18mm Shutter Groove",
+      "weight": "620g",
+      "specifications": {
+        "Shutter Thickness": "Engineered for standard 18mm / 19mm boards",
+        "Mounting": "Concealed rear screw fixation",
+        "Coating": "25-Micron Anodized Anti-Oxidation Layer"
+      },
+      "features": [
+        "Ergonomic finger grip curvature",
+        "No sharp burrs - chamfered safety edges",
+        "Zero fading even in humid coastal areas",
+        "Gives premium Italian modular aesthetic to wardrobes"
+      ],
+      "isFeatured": true,
+      "bulkPricing": [
+        {
+          "minQty": 6,
+          "price": 610
+        },
+        {
+          "minQty": 24,
+          "price": 540
+        }
+      ],
+      "rating": 4.9,
+      "reviewsCount": 63,
+      "tags": [
+        "profile handle",
+        "wardrobe handle",
+        "gold handle",
+        "cabinet pull"
+      ],
+      "isActive": true,
+      "createdAt": "2026-01-22T10:00:00Z"
+    },
+    {
+      "id": "prod-8",
+      "name": "Devshree Black Phosphate Drywall Screws 1.25 Inch (Box of 1000 Pieces)",
+      "slug": "black-phosphate-drywall-wood-screws-1-25-inch-1000pcs",
+      "sku": "DS-SC-DW125",
+      "brand": "Devshree Pro",
+      "category": "Fasteners & Screws",
+      "subcategory": "Drywall Screws",
+      "price": 360,
+      "mrp": 520,
+      "discountPercentage": 31,
+      "stock": 200,
+      "lowStockThreshold": 40,
+      "images": [
+        "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=800&auto=format&fit=crop&q=80"
+      ],
+      "description": "Case-hardened steel bugle head drywall and wood screws with black phosphate anti-friction coating. Deep coarse threads provide superior pull-out strength in plywood, gypsum, and timber frames.",
+      "shortDescription": "1000 pcs 3.5x32mm bugle head hardened black drywall screws.",
+      "material": "C1022 Case Hardened Carbon Steel",
+      "finish": "Black Phosphate Dip",
+      "dimensions": "3.5mm Diameter x 32mm (1.25 Inch) Length",
+      "weight": "1.5 kg per box",
+      "specifications": {
+        "Head Type": "Bugle Head with Philips #2 Cross Recess",
+        "Thread Type": "Coarse Fast-Driving Thread",
+        "Point": "Needle Sharp Piercing Point (Self-Piercing)",
+        "Quantity": "1,000 Screws per sealed box"
+      },
+      "features": [
+        "Zero slippage with magnetic driver bits",
+        "Countersinks flush without tearing board face paper",
+        "Heat-treated to prevent head snapping during high-torque driving",
+        "Contractor bulk favorite"
+      ],
+      "isBestSeller": true,
+      "bulkPricing": [
+        {
+          "minQty": 5,
+          "price": 325
+        },
+        {
+          "minQty": 25,
+          "price": 285
+        }
+      ],
+      "rating": 4.8,
+      "reviewsCount": 180,
+      "tags": [
+        "screws",
+        "drywall screws",
+        "wood screws",
+        "fasteners",
+        "hardware"
+      ],
+      "isActive": true,
+      "createdAt": "2026-01-24T10:00:00Z"
+    },
+    {
+      "id": "prod-9",
+      "name": "Devshree 4-Piece Heavy Corner Bed Bracket Fitting Set (Galvanized Zinc)",
+      "slug": "corner-bed-bracket-fitting-set-4pcs",
+      "sku": "DS-BF-CN04",
+      "brand": "Devshree Pro",
+      "category": "Bed Fittings",
+      "subcategory": "Bed Corner Brackets",
+      "price": 349,
+      "mrp": 499,
+      "discountPercentage": 30,
+      "stock": 80,
+      "lowStockThreshold": 15,
+      "images": [
+        "https://images.unsplash.com/photo-1540518614846-7ede433c4ef0?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=800&auto=format&fit=crop&q=80"
+      ],
+      "description": "Set of 4 heavy-duty right-angle corner brackets with locking hook design for wooden bed frame assembly. Eliminates squeaks and wobbles while allowing rapid tool-free disassembly.",
+      "shortDescription": "Heavy-duty 4-piece non-squeak bed corner hook connecting brackets.",
+      "material": "3mm Stamped Structural Carbon Steel",
+      "finish": "Golden Yellow Zinc Plated",
+      "dimensions": "130mm x 130mm x 35mm (Each Piece)",
+      "weight": "1.1 kg (Set of 4)",
+      "specifications": {
+        "Set Includes": "4 Corner Connectors + 4 Receiver Plates + Fixation Screws",
+        "Load Capacity": "Up to 600 kg static bed weight",
+        "Application": "Double Beds, Diwan Beds, Bunk Beds"
+      },
+      "features": [
+        "Anti-wobble tapered hook slot keeps joint rigid",
+        "Thick stamped steel prevents bending under mattress loads",
+        "Rust-proof yellow dichromate finish",
+        "Quick knock-down assembly for shifting"
+      ],
+      "isOffer": true,
+      "bulkPricing": [
+        {
+          "minQty": 5,
+          "price": 310
+        },
+        {
+          "minQty": 20,
+          "price": 270
+        }
+      ],
+      "rating": 4.7,
+      "reviewsCount": 52,
+      "tags": [
+        "bed bracket",
+        "bed connector",
+        "corner joint",
+        "bed hardware"
+      ],
+      "isActive": true,
+      "createdAt": "2026-01-26T10:00:00Z"
+    },
+    {
+      "id": "prod-10",
+      "name": "Devshree Red Silicon Carbide Waterproof Sandpaper Sheets Grit 220 (Pack of 50)",
+      "slug": "waterproof-abrasive-sandpaper-grit-220-pack-50",
+      "sku": "DS-AB-SP220",
+      "brand": "Devshree Pro",
+      "category": "Abrasives & Sanding",
+      "subcategory": "Emery Paper",
+      "price": 499,
+      "mrp": 750,
+      "discountPercentage": 33,
+      "stock": 90,
+      "lowStockThreshold": 15,
+      "images": [
+        "https://images.unsplash.com/photo-1581092335397-9583fe92d232?w=800&auto=format&fit=crop&q=80"
+      ],
+      "description": "Professional wet and dry silicon carbide abrasive sheets on flexible latex paper backing. Delivers scratch-free smooth finishes on primer, wood polishes, PU coatings, and metals.",
+      "shortDescription": "50 sheets wet/dry 9x11 inch waterproof silicon carbide sandpaper.",
+      "material": "Silicon Carbide Grain on Waterproof Latex Kraft Paper",
+      "finish": "220 Grit Medium-Fine",
+      "dimensions": "9\" x 11\" (230mm x 280mm)",
+      "weight": "900g per pack",
+      "specifications": {
+        "Grit Rating": "P220",
+        "Pack Size": "50 Full Size Sheets",
+        "Usage": "Wet Sanding & Dry Sanding compatible"
+      },
+      "features": [
+        "Resin-over-resin bonding resists grain shedding",
+        "Anti-clogging stearate treatment extends lifespan",
+        "Uniform scratch pattern ideal before final gloss coat"
+      ],
+      "bulkPricing": [
+        {
+          "minQty": 5,
+          "price": 440
+        },
+        {
+          "minQty": 20,
+          "price": 390
+        }
+      ],
+      "rating": 4.8,
+      "reviewsCount": 41,
+      "tags": [
+        "abrasive",
+        "sandpaper",
+        "wood polishing",
+        "emery paper"
+      ],
+      "isActive": true,
+      "createdAt": "2026-01-28T10:00:00Z"
+    },
+    {
+      "id": "prod-11",
+      "name": "Godrej Nav-Tal 7 Levers High Security Brass Padlock with 3 Keys",
+      "slug": "godrej-nav-tal-7-levers-brass-padlock",
+      "sku": "GD-LK-NT07",
+      "brand": "Godrej",
+      "category": "Door Hardware",
+      "subcategory": "Mortise Locksets",
+      "price": 599,
+      "mrp": 760,
+      "discountPercentage": 21,
+      "stock": 75,
+      "lowStockThreshold": 15,
+      "images": [
+        "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=800&auto=format&fit=crop&q=80"
+      ],
+      "description": "Iconic authentic brass padlock featuring 7 brass levers and case-hardened steel shackle. Provides uncompromised protection for shop shutters, godowns, main gates, and storage units.",
+      "shortDescription": "Legendary 7-lever solid brass padlock with hardened shackle.",
+      "material": "Solid Virgin Brass Body & Hardened Steel Shackle",
+      "finish": "Polished Brass",
+      "dimensions": "75mm x 55mm x 25mm",
+      "weight": "490g",
+      "specifications": {
+        "Levers": "7 Brass Precision Levers",
+        "Shackle": "Case-Hardened 9mm Steel Shackle (Hacksaw Resistant)",
+        "Keys": "3 Precision Brass Keys",
+        "Warranty": "1 Year Godrej Warranty"
+      },
+      "features": [
+        "Pick resistant lever mechanism",
+        "Riveted body withstands sledgehammer strikes",
+        "Weather-resistant brass construction resists monsoon corrosion"
+      ],
+      "isBestSeller": true,
+      "bulkPricing": [
+        {
+          "minQty": 6,
+          "price": 545
+        },
+        {
+          "minQty": 24,
+          "price": 495
+        }
+      ],
+      "rating": 4.9,
+      "reviewsCount": 184,
+      "tags": [
+        "padlock",
+        "godrej lock",
+        "shutter lock",
+        "security lock"
+      ],
+      "isActive": true,
+      "createdAt": "2026-01-30T10:00:00Z"
+    },
+    {
+      "id": "prod-12",
+      "name": "Devshree Stainless Steel SS-304 Concealed Magnetic Door Stopper",
+      "slug": "ss304-concealed-magnetic-door-stopper",
+      "sku": "DS-DS-MG304",
+      "brand": "Devshree Pro",
+      "category": "Door Hardware",
+      "subcategory": "Tower Bolts & Latches",
+      "price": 299,
+      "mrp": 450,
+      "discountPercentage": 33,
+      "stock": 110,
+      "lowStockThreshold": 20,
+      "images": [
+        "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=800&auto=format&fit=crop&q=80"
+      ],
+      "description": "Sleek floor-mounted concealed magnetic door stopper made of genuine SS-304 stainless steel. The spring-loaded flap rises automatically when the door approaches, catching the door firmly and silently.",
+      "shortDescription": "Ultra-slim floor mounted magnetic door catch in brushed SS-304.",
+      "material": "Grade 304 Stainless Steel & Neodymium Magnet",
+      "finish": "Brushed Satin Silver",
+      "dimensions": "60mm Base Diameter x 4mm Low Profile Height",
+      "weight": "180g",
+      "specifications": {
+        "Holding Force": "5.5 kg magnetic holding strength",
+        "Mounting": "Floor mounted with included expansion anchors or 3M tape",
+        "Gap Compatibility": "5mm to 15mm door bottom gap"
+      },
+      "features": [
+        "Low profile design prevents stubbed toes or tripping",
+        "Strong rare-earth magnet holds against windy room drafts",
+        "Lifetime rust-proof guarantee in coastal climates"
+      ],
+      "bulkPricing": [
+        {
+          "minQty": 5,
+          "price": 265
+        },
+        {
+          "minQty": 25,
+          "price": 220
+        }
+      ],
+      "rating": 4.7,
+      "reviewsCount": 65,
+      "tags": [
+        "door stopper",
+        "magnetic catcher",
+        "ss304",
+        "door hardware"
+      ],
+      "isActive": true,
+      "createdAt": "2026-02-01T10:00:00Z"
+    },
+    {
+      "id": "prod-13",
+      "name": "Devshree Soft-Close Kitchen Tandem Box Drawer System (500mm / 150mm High)",
+      "slug": "soft-close-kitchen-tandem-box-drawer-system-500mm",
+      "sku": "DS-KT-TB500",
+      "brand": "Devshree Pro",
+      "category": "Kitchen & Wardrobe",
+      "subcategory": "Tandem Baskets",
+      "price": 1850,
+      "mrp": 2800,
+      "discountPercentage": 34,
+      "stock": 35,
+      "lowStockThreshold": 8,
+      "images": [
+        "https://images.unsplash.com/photo-1556909212-d5b604d0c90d?w=800&auto=format&fit=crop&q=80"
+      ],
+      "description": "Double-walled steel drawer side system with concealed synchronized soft-closing runners. Engineered for modern modular kitchens, accommodating heavy pots, pans, and grocery loads with zero sag.",
+      "shortDescription": "Synchronized soft-close double wall tandem drawer system 40kg capacity.",
+      "material": "Double-Walled Powder Coated Steel & Hardened Runners",
+      "finish": "Anthracite Dark Grey Metallic",
+      "dimensions": "500mm Depth x 150mm Height Side Panel",
+      "weight": "3.6 kg",
+      "specifications": {
+        "Load Rating": "40 Kg dynamic load capacity",
+        "Runner Mechanism": "Full extension with integrated fluid damper",
+        "Adjustment": "2D Shutter Front Alignment (Height & Side)"
+      },
+      "features": [
+        "Feather-light glide even when fully loaded with utensils",
+        "Silent gentle closure prevents cookware clattering",
+        "Modern slim anthracite side profile maximizes internal storage volume"
+      ],
+      "isFeatured": true,
+      "bulkPricing": [
+        {
+          "minQty": 4,
+          "price": 1680
+        },
+        {
+          "minQty": 16,
+          "price": 1490
+        }
+      ],
+      "rating": 4.9,
+      "reviewsCount": 38,
+      "tags": [
+        "tandem box",
+        "modular kitchen",
+        "drawer system",
+        "kitchen fittings"
+      ],
+      "isActive": true,
+      "createdAt": "2026-02-05T10:00:00Z"
+    },
+    {
+      "id": "prod-14",
+      "name": "Devshree Professional Carpenter Steel Measuring Tape 5 Meter with Dual Metric / Inch Scale",
+      "slug": "professional-carpenter-measuring-tape-5m",
+      "sku": "DS-TL-MT05",
+      "brand": "Devshree Pro",
+      "category": "Tools & Accessories",
+      "subcategory": "Measuring Tools",
+      "price": 189,
+      "mrp": 290,
+      "discountPercentage": 35,
+      "stock": 150,
+      "lowStockThreshold": 25,
+      "images": [
+        "https://images.unsplash.com/photo-1508873696983-2df5293cb395?w=800&auto=format&fit=crop&q=80"
+      ],
+      "description": "Impact-resistant rubberized measuring tape with 19mm wide matte nylon-coated blade. Large clear dual-side printing with both metric (mm/cm) and standard Indian carpenter inch/feet/sut markings.",
+      "shortDescription": "5-Meter heavy-duty rubber encased tape with Indian inch/sut markings.",
+      "material": "High-Carbon Steel Blade & Shockproof ABS Rubber Case",
+      "finish": "High-Visibility Yellow Blade with Matte Anti-Glare Coat",
+      "dimensions": "5m Length x 19mm Blade Width",
+      "weight": "240g",
+      "specifications": {
+        "Stand-out Length": "2.1 meters rigid stand-out without buckling",
+        "Hook Type": "True-Zero Magnetic End Hook",
+        "Locking": "Positive thumb brake lock mechanism"
+      },
+      "features": [
+        "Includes Indian carpenter sut (1/8th inch) fractions",
+        "Drop tested from 3 meters onto concrete without cracking",
+        "Belt clip and wrist lanyard included"
+      ],
+      "isBestSeller": true,
+      "bulkPricing": [
+        {
+          "minQty": 10,
+          "price": 160
+        },
+        {
+          "minQty": 50,
+          "price": 135
+        }
+      ],
+      "rating": 4.8,
+      "reviewsCount": 115,
+      "tags": [
+        "measuring tape",
+        "carpenter tape",
+        "tools",
+        "hand tools"
+      ],
+      "isActive": true,
+      "createdAt": "2026-02-08T10:00:00Z"
+    }
+  ],
+  "banners": [
+    {
+      "id": "ban-1",
+      "title": "Quality Hardware. Delivered to Your Door.",
+      "subtitle": "Direct supplier of authentic bed fittings, hinges, mortise locks & contractor fasteners across India.",
+      "badge": "DIRECT FACTORY TO SITE SUPPLY",
+      "desktopImage": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=1600&auto=format&fit=crop&q=80",
+      "mobileImage": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=800&auto=format&fit=crop&q=80",
+      "ctaText": "SHOP NOW",
+      "ctaLink": "/shop",
+      "secondaryCtaText": "VIEW OFFERS",
+      "secondaryCtaLink": "/offers",
+      "themeColor": "#124DA6",
+      "order": 1,
+      "isActive": true
+    },
+    {
+      "id": "ban-2",
+      "title": "Heavy Bed Fittings & Hydraulic Mechanism",
+      "subtitle": "Certified 1500N gas pumps, non-squeak bed brackets & heavy hardware for king/queen beds.",
+      "badge": "ENGINEERED FOR STRENGTH",
+      "desktopImage": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=1600&auto=format&fit=crop&q=80",
+      "mobileImage": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=800&auto=format&fit=crop&q=80",
+      "ctaText": "EXPLORE BED FITTINGS",
+      "ctaLink": "/category/bed-fittings",
+      "secondaryCtaText": "REQUEST BULK QUOTE",
+      "secondaryCtaLink": "/bulk-quote",
+      "themeColor": "#E87500",
+      "order": 2,
+      "isActive": true
+    },
+    {
+      "id": "ban-3",
+      "title": "Contractor & Builder Bulk Supply Hub",
+      "subtitle": "Special wholesale rates, GST input invoice, fast dispatch & direct factory pallets.",
+      "badge": "B2B WHOLESALE PRICING",
+      "desktopImage": "https://images.unsplash.com/photo-1538688525198-9b88f6f53126?w=1600&auto=format&fit=crop&q=80",
+      "mobileImage": "https://images.unsplash.com/photo-1538688525198-9b88f6f53126?w=800&auto=format&fit=crop&q=80",
+      "ctaText": "GET CONTRACTOR QUOTE",
+      "ctaLink": "/bulk-quote",
+      "secondaryCtaText": "WHATSAPP ENQUIRY",
+      "secondaryCtaLink": "https://wa.me/918128040556",
+      "themeColor": "#083B82",
+      "order": 3,
+      "isActive": true
+    }
+  ],
+  "coupons": [
+    {
+      "id": "c-welcome",
+      "code": "WELCOME10",
+      "description": "Flat 10% OFF on your first hardware purchase",
+      "discountType": "percentage",
+      "discountValue": 10,
+      "minOrderValue": 999,
+      "maxDiscount": 500,
+      "startDate": "2026-01-01",
+      "endDate": "2026-12-31",
+      "usageLimit": 1000,
+      "usageCount": 142,
+      "isActive": true
+    },
+    {
+      "id": "c-bulk",
+      "code": "BULK15",
+      "description": "Save 15% on orders above ₹4,999 for contractors & workshops",
+      "discountType": "percentage",
+      "discountValue": 15,
+      "minOrderValue": 4999,
+      "maxDiscount": 2000,
+      "startDate": "2026-01-01",
+      "endDate": "2026-12-31",
+      "usageLimit": 500,
+      "usageCount": 89,
+      "isActive": true
+    },
+    {
+      "id": "c-save250",
+      "code": "SAVE250",
+      "description": "Flat ₹250 instant discount on orders above ₹2,499",
+      "discountType": "flat",
+      "discountValue": 250,
+      "minOrderValue": 2499,
+      "startDate": "2026-01-01",
+      "endDate": "2026-12-31",
+      "usageLimit": 300,
+      "usageCount": 65,
+      "isActive": true
+    }
+  ],
+  "offers": [
+    {
+      "id": "off-1",
+      "title": "Up to 35% Off on Modular Kitchen Hardware",
+      "description": "Upgrade your drawers and cabinets with soft-close tandem boxes and hinges.",
+      "bannerImage": "https://images.unsplash.com/photo-1556909212-d5b604d0c90d?w=800&auto=format&fit=crop&q=80",
+      "badge": "LIMITED TIME DEAL",
+      "discountTag": "UP TO 35% OFF",
+      "link": "/category/kitchen-hardware",
+      "startDate": "2026-01-01",
+      "endDate": "2026-12-31",
+      "isActive": true
+    },
+    {
+      "id": "off-2",
+      "title": "Bed Lift Mechanism Special Combo",
+      "description": "Buy Hydraulic Lifts + Corner Brackets together and get free express shipping.",
+      "bannerImage": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=800&auto=format&fit=crop&q=80",
+      "badge": "COMBO SAVER",
+      "discountTag": "FREE SHIPPING",
+      "link": "/category/bed-fittings",
+      "startDate": "2026-01-01",
+      "endDate": "2026-12-31",
+      "isActive": true
+    }
+  ],
+  "homepageSections": [
+    {
+      "id": "announcement",
+      "name": "Announcement Bar",
+      "title": "Top Delivery & Bulk Announcement",
+      "isEnabled": true,
+      "order": 1
+    },
+    {
+      "id": "hero",
+      "name": "Hero Carousel",
+      "title": "Dynamic Promo Banners",
+      "isEnabled": true,
+      "order": 2
+    },
+    {
+      "id": "categories",
+      "name": "Shop By Category",
+      "title": "Visual Category Cards",
+      "isEnabled": true,
+      "order": 3
+    },
+    {
+      "id": "flash_deals",
+      "name": "Today's Hot Offers",
+      "title": "Daily Discount Deals",
+      "isEnabled": true,
+      "order": 4
+    },
+    {
+      "id": "bestsellers",
+      "name": "Best Sellers",
+      "title": "Customer Favorite Hardware",
+      "isEnabled": true,
+      "order": 5
+    },
+    {
+      "id": "bulk_contractor",
+      "name": "Bulk Order / Contractor Section",
+      "title": "Wholesale B2B Buying Bar",
+      "isEnabled": true,
+      "order": 6
+    },
+    {
+      "id": "featured_products",
+      "name": "Featured Hardware",
+      "title": "Curated Architectural Hardware",
+      "isEnabled": true,
+      "order": 7
+    },
+    {
+      "id": "brands",
+      "name": "Popular Brands",
+      "title": "Europa, Godrej, Devshree, Polyfix",
+      "isEnabled": true,
+      "order": 8
+    },
+    {
+      "id": "why_devshree",
+      "name": "Why Choose Devshree",
+      "title": "6 Pillars of Trust & Quality",
+      "isEnabled": true,
+      "order": 9
+    },
+    {
+      "id": "order_process",
+      "name": "Easy Ordering Process",
+      "title": "3 Step Hassle-Free Ordering",
+      "isEnabled": true,
+      "order": 10
+    },
+    {
+      "id": "reviews",
+      "name": "Customer Reviews",
+      "title": "Contractor & Carpenter Testimonials",
+      "isEnabled": true,
+      "order": 11
+    },
+    {
+      "id": "faq",
+      "name": "Frequently Asked Questions",
+      "title": "Common Buyer Queries",
+      "isEnabled": true,
+      "order": 12
+    }
+  ],
+  "reviews": [
+    {
+      "id": "rev-1",
+      "productId": "prod-1",
+      "productName": "Devshree Heavy-Duty Hydraulic Bed Lift Mechanism",
+      "customerName": "Rajeshbhai Suthar (Master Carpenter, Ahmedabad)",
+      "rating": 5,
+      "headline": "Best hydraulic bed lift for heavy teakwood beds!",
+      "comment": "I have fitted this hydraulic mechanism in 12 client houses now. The gas pump pressure is solid 1500N, zero mattress shaking and the angle opens easily without strain. Fast delivery to Gujarat.",
+      "isVerifiedPurchase": true,
+      "isApproved": true,
+      "createdAt": "2026-02-14T09:00:00Z"
+    },
+    {
+      "id": "rev-2",
+      "productId": "prod-3",
+      "productName": "Devshree Soft-Close 3D Clip-On Hydraulic Hinges",
+      "customerName": "Manoj Sharma (Interior Contractor, Surat)",
+      "rating": 5,
+      "headline": "Superior to ordinary local market hinges",
+      "comment": "The 3D adjustment screw is very helpful when aligning wardrobe doors. Closing speed is completely smooth and silent. Genuine quality products from Devshree.",
+      "isVerifiedPurchase": true,
+      "isApproved": true,
+      "createdAt": "2026-02-18T14:30:00Z"
+    },
+    {
+      "id": "rev-3",
+      "productId": "prod-5",
+      "productName": "Polyfix Instant Cyanoacrylate High-Bond Adhesive Kit",
+      "customerName": "Pravin Vaghani (Furniture Fabricator, Rajkot)",
+      "rating": 5,
+      "headline": "Bonds PVC edge tape in 5 seconds flat",
+      "comment": "The spray activator makes edge banding work 3 times faster. Doesn't turn white like cheap super glues. Polyfix is genuine here.",
+      "isVerifiedPurchase": true,
+      "isApproved": true,
+      "createdAt": "2026-02-22T11:15:00Z"
+    }
+  ],
+  "faqs": [
+    {
+      "id": "faq-1",
+      "category": "Orders & Delivery",
+      "question": "How fast is delivery for hardware orders?",
+      "answer": "We dispatch all orders within 24 hours from our central warehouse. Deliveries within Gujarat typically arrive in 1-2 business days, and across other states in India within 3-5 business days. You will receive live SMS and WhatsApp tracking updates.",
+      "displayOrder": 1,
+      "isActive": true
+    },
+    {
+      "id": "faq-2",
+      "category": "Payment & Returns",
+      "question": "Do you offer Cash on Delivery (COD) and Online Payments?",
+      "answer": "Yes! We support Cash on Delivery (COD) for eligible pincodes across India. We also accept all major UPI apps (Google Pay, PhonePe, Paytm), Debit/Credit Cards, and Net Banking through our secure payment gateway.",
+      "displayOrder": 2,
+      "isActive": true
+    },
+    {
+      "id": "faq-3",
+      "category": "Bulk & Contractor",
+      "question": "Do you provide bulk pricing and GST Tax Invoices for contractors?",
+      "answer": "Absolutely. We cater directly to contractors, carpenters, interior designers, and commercial builders. We offer tiered wholesale discounts and provide 100% compliant GST input credit invoices with your company details.",
+      "displayOrder": 3,
+      "isActive": true
+    },
+    {
+      "id": "faq-4",
+      "category": "Products & Warranty",
+      "question": "Are all products 100% original and genuine?",
+      "answer": "Yes, Devshree is an authorized gallery and direct distributor. Every single item is sourced directly from certified manufacturers with manufacturer warranty and quality assurance checks.",
+      "displayOrder": 4,
+      "isActive": true
+    },
+    {
+      "id": "faq-5",
+      "category": "Payment & Returns",
+      "question": "What is your return and replacement policy?",
+      "answer": "We provide a hassle-free 7-day replacement guarantee if any item arrives damaged, defective, or incorrect. Simply message our WhatsApp support team with a photo of the product to initiate quick pickup and replacement.",
+      "displayOrder": 5,
+      "isActive": true
+    },
+    {
+      "id": "faq-6",
+      "category": "Bulk & Contractor",
+      "question": "How can I place an order via WhatsApp or phone?",
+      "answer": "You can tap any \"Ask on WhatsApp\" or \"Call Us\" button on the site. Send us your list of required items, sizes, or photos of your drawings, and our hardware experts will generate an instant quotation with invoice.",
+      "displayOrder": 6,
+      "isActive": true
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord-101",
+      "orderNumber": "DS-2026-9041",
+      "customerName": "Dharmesh Patel",
+      "customerEmail": "dharmesh.patel@gmail.com",
+      "customerPhone": "+91 98251 44521",
+      "items": [
+        {
+          "productId": "prod-1",
+          "name": "Devshree Heavy-Duty Hydraulic Bed Lift Mechanism (150 Kg Capacity / Pair)",
+          "sku": "DS-BL-150H",
+          "price": 1899,
+          "mrp": 2799,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=400&auto=format&fit=crop&q=80",
+          "total": 1899
+        },
+        {
+          "productId": "prod-9",
+          "name": "Devshree 4-Piece Heavy Corner Bed Bracket Fitting Set",
+          "sku": "DS-BF-CN04",
+          "price": 349,
+          "mrp": 499,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1540518614846-7ede433c4ef0?w=400&auto=format&fit=crop&q=80",
+          "total": 349
+        }
+      ],
+      "shippingAddress": {
+        "fullName": "Dharmesh Patel",
+        "phone": "+91 98251 44521",
+        "houseFlat": "Plot 42, Shreenathji Residency",
+        "streetArea": "Kalawad Road",
+        "city": "Rajkot",
+        "state": "Gujarat",
+        "pincode": "360005",
+        "addressType": "home"
+      },
+      "subtotal": 2248,
+      "discount": 225,
+      "couponCode": "WELCOME10",
+      "shippingFee": 0,
+      "estimatedGst": 364,
+      "total": 2023,
+      "paymentMethod": "upi",
+      "paymentStatus": "paid",
+      "paymentId": "pay_rzp_test_891024",
+      "orderStatus": "Shipped",
+      "timeline": [
+        {
+          "status": "Order Placed",
+          "timestamp": "2026-03-24T10:15:00Z",
+          "note": "Order placed via UPI"
+        },
+        {
+          "status": "Confirmed",
+          "timestamp": "2026-03-24T10:45:00Z",
+          "note": "Payment verified & order confirmed"
+        },
+        {
+          "status": "Packed",
+          "timestamp": "2026-03-24T16:20:00Z",
+          "note": "Secure hardware packaging completed"
+        },
+        {
+          "status": "Shipped",
+          "timestamp": "2026-03-25T09:10:00Z",
+          "note": "Dispatched via Blue Dart Express (AWB: 489201940)"
+        }
+      ],
+      "trackingNumber": "BLUEDART-489201940",
+      "courierName": "Blue Dart Express",
+      "estimatedDeliveryDate": "2026-03-27",
+      "createdAt": "2026-03-24T10:15:00Z"
+    }
+  ],
+  "bulkEnquiries": [
+    {
+      "id": "enq-1",
+      "name": "Vipul Solanki",
+      "companyName": "Royal Modular Furniture",
+      "phone": "+91 97240 55120",
+      "email": "vipul@royalmodular.in",
+      "city": "Ahmedabad",
+      "productsRequired": "Devshree Hydraulic Bed Lift Mechanism 150Kg (50 Pairs), Soft-Close Hinges (500 Pieces)",
+      "estimatedQuantity": "Approx ₹1,50,000 Order Value",
+      "status": "new",
+      "notes": "Requested GST bill and fast transport dispatch to Ahmedabad warehouse.",
+      "createdAt": "2026-03-24T12:00:00Z"
+    }
+  ]
+}
